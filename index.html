@@ -20,408 +20,440 @@
 	<!-- Custom Fonts -->
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		  type="text/css">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
 </head>
 
 <body id="page-top" class="index">
 
-	<!-- Navigation -->
-	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-				<a class="navbar-brand" href="#">
-					<img src="img/IconBW.png" width="30" height="30" alt="">
+<!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header page-scroll">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img src="img/IconBW.png" width="30" height="30" alt="">
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="hidden">
+					<a href="#page-top"></a>
+				</li>
+				<li class="page-scroll">
+					<a href="#game">Game</a>
+				</li>
+				<li class="page-scroll">
+					<a href="#powerups">Powerups</a>
+				</li>
+				<li class="page-scroll">
+					<a href="#world">World</a>
+				</li>
+				<li class="page-scroll">
+					<a href="#developers">Developers</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<img class="img-responsive" width="500" height="500" src="img/Logo.png" alt="">
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- Game Section -->
+<section id="game">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Game Description</h2>
+				<hr class="star-primary">
+			</div>
+		</div>
+		<div class="row">
+			<!-- Gameplay Video -->
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item"
+						src="https://www.youtube.com/embed/hznnO_P6oDo?feature=player_detailpage"></iframe>
+			</div>
+		</div>
+		<div class="row">
+			<p>Description of the game</p>
+		</div>
+	</div>
+</section>
+
+<!-- Powerups Section -->
+<section class="success" id="powerups">
+	<div class="container">
+		<div class="row top-buffer">
+			<div class="col-lg-12 text-center">
+				<h2>Powerups</h2>
+				<hr class="star-light">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 portfolio-item">
+				<a href="#vanillaModal" class="portfolio-link" data-toggle="modal">
+					<div class="caption">
+						<div class="caption-content">
+							<i class="fa fa-search-plus fa-3x"></i>
+						</div>
+					</div>
+					<img src="img/powerups/Vanilla.png" class="img-responsive">
 				</a>
 			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="hidden">
-						<a href="#page-top"></a>
-					</li>
-					<li class="page-scroll">
-						<a href="#game">Game</a>
-					</li>
-					<li class="page-scroll">
-						<a href="#powerups">Powerups</a>
-					</li>
-					<li class="page-scroll">
-						<a href="#world">World</a>
-					</li>
-					<li class="page-scroll">
-						<a href="#developers">Developers</a>
-					</li>
-				</ul>
+			<div class="col-sm-4 portfolio-item">
+				<a href="#nitroModal" class="portfolio-link" data-toggle="modal">
+					<div class="caption">
+						<div class="caption-content">
+							<i class="fa fa-search-plus fa-3x"></i>
+						</div>
+					</div>
+					<img src="img/powerups/Nitrous.png" class="img-responsive">
+				</a>
 			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-fluid -->
-	</nav>
+			<div class="col-sm-4 portfolio-item">
+				<a href="#missileModal" class="portfolio-link" data-toggle="modal">
+					<div class="caption">
+						<div class="caption-content">
+							<i class="fa fa-search-plus fa-3x"></i>
+						</div>
+					</div>
+					<img src="img/powerups/Missile.png" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-sm-4 portfolio-item">
+				<a href="#sludgeModal" class="portfolio-link" data-toggle="modal">
+					<div class="caption">
+						<div class="caption-content">
+							<i class="fa fa-search-plus fa-3x"></i>
+						</div>
+					</div>
+					<img src="img/powerups/Sludge.png" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-sm-4 portfolio-item">
+				<a href="#pushModal" class="portfolio-link" data-toggle="modal">
+					<div class="caption">
+						<div class="caption-content">
+							<i class="fa fa-search-plus fa-3x"></i>
+						</div>
+					</div>
+					<img src="img/powerups/Force.png" class="img-responsive">
 
-	<!-- Header -->
-	<header>
+				</a>
+			</div>
+			<div class="col-sm-4 portfolio-item">
+				<a href="#teslaModal" class="portfolio-link" data-toggle="modal">
+					<div class="caption">
+						<div class="caption-content">
+							<i class="fa fa-search-plus fa-3x"></i>
+						</div>
+					</div>
+					<img src="img/powerups/Tesla.png" class="img-responsive">
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- World Section -->
+<section id="world">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>World Setting</h2>
+				<hr class="star-primary">
+			</div>
+		</div>
+		<div class="row">
+			<p>Description of the world setting and ambient</p>
+		</div>
+	</div>
+</section>
+
+<!-- Developers Section -->
+<section class="success" id="developers">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Development Team</h2>
+				<hr class="star-light">
+			</div>
+		</div>
+		<span></span>
+		<div class="row">
+			<div class="col-sm-4 text-center">
+				<figure class="figure">
+					<img src="img/placeholder.png" class="figure-img img-fluid rounded">
+					<figcaption class="figure-caption text-center">Ivan Santos</figcaption>
+					<figcaption class="figure-caption text-center">vanil90@gmail.com</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 text-center">
+				<figure class="figure">
+					<img src="img/placeholder.png" class="figure-img img-fluid rounded">
+					<figcaption class="figure-caption text-center">André Santos</figcaption>
+					<figcaption class="figure-caption text-center">aalmsantos@gmail.com</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 text-center">
+				<figure class="figure">
+					<img src="img/placeholder.png" class="figure-img img-fluid rounded">
+					<figcaption class="figure-caption text-center">Luís Silva</figcaption>
+					<figcaption class="figure-caption text-center">luissilva@gmail.com</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+	<div class="footer-above">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col col-md-4">
+					<h3>Location</h3>
+					<p>3481 Melrose Place
+						<br>Beverly Hills, CA 90210</p>
+				</div>
+				<div class="footer-col col-md-4">
+					<h3>Around the Web</h3>
+					<ul class="list-inline">
+						<li>
+							<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+						</li>
+						<li>
+							<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+						</li>
+						<li>
+							<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-col col-md-4">
+					<h3>About Freelancer</h3>
+					<p>Freelance is a free to use, open source Bootstrap theme created by <a
+							href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-below">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<img class="img-responsive" width="500" height="500" src="img/Logo.png" alt="">
+					Copyright &copy; Your Website 2016
 				</div>
 			</div>
 		</div>
-	</header>
+	</div>
+</footer>
 
-	<!-- Game Section -->
-	<section id="game">
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+	<a class="btn btn-primary" href="#page-top">
+		<i class="fa fa-chevron-up"></i>
+	</a>
+</div>
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="nitroModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
+				</div>
+			</div>
+		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h2>Game Description</h2>
-					<hr class="star-primary">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body">
+						<h2>Nitro Powerup</h2>
+						<hr class="star-primary">
+						<img src="img/powerups/Nitrous.png" class="img-responsive img-centered" alt="">
+						<p>Want to go fast? Nitrous Upgrade is your choice. Your car will burn out faster, but if you
+							want to beat your high score, nitrous is the way to go. Once you go over the limit and
+							activate Nitrous, you car will vastly increase its speed, but be careful, as it will also
+							become much harder to control.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+							Close
+						</button>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<!-- Gameplay Video -->
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hznnO_P6oDo?feature=player_detailpage"></iframe>
-				</div>
-			</div>
-			<div class="row">
-				<p>Description of the game</p>
 			</div>
 		</div>
-	</section>
-
-	<!-- Powerups Section -->
-	<section class="success" id="powerups">
-		<div class="container">
-			<div class="row top-buffer">
-				<div class="col-lg-12 text-center">
-					<h2>Powerups</h2>
-					<hr class="star-light">
+	</div>
+</div>
+<div class="portfolio-modal modal fade" id="sludgeModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
 				</div>
 			</div>
-				<div class="row">
-					<div class="col-sm-4 portfolio-item">
-						<a href="#vanillaModal" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img src="img/powerups/Vanilla.png" class="img-responsive">
-						</a>
-					</div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="#nitroModal" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img src="img/powerups/Nitrous.png" class="img-responsive">
-						</a>
-					</div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="#missileModal" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-								<img src="img/powerups/Missile.png" class="img-responsive">
-						</a>
-					</div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="#sludgeModal" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-							<img src="img/powerups/Sludge.png" class="img-responsive">
-						</a>
-					</div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="#pushModal" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-								<img src="img/powerups/Force.png" class="img-responsive">
-
-						</a>
-					</div>
-					<div class="col-sm-4 portfolio-item">
-						<a href="#teslaModal" class="portfolio-link" data-toggle="modal">
-							<div class="caption">
-								<div class="caption-content">
-									<i class="fa fa-search-plus fa-3x"></i>
-								</div>
-							</div>
-								<img src="img/powerups/Tesla.png" class="img-responsive">
-						</a>
-					</div>
-				</div>
 		</div>
-	</section>
-
-	<!-- World Section -->
-	<section id="world">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h2>World Setting</h2>
-					<hr class="star-primary">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body">
+						<h2>Sludge Powerup</h2>
+						<hr class="star-primary">
+						<img src="img/powerups/Sludge.png" class="img-responsive img-centered" alt="">
+						<p>A sturdy solution which allows you to stay ahead, if you get ahead! Once you get over 42v
+							with Sludge installed, you will start dropping sludge on the track which will slow down your
+							adversaries. Even better, your car will become sturdier to the pressure of high V, allowing
+							you to use this upgrade for longer, and ride over the limit for longer.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+							Close
+						</button>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<p>Description of the world setting and ambient</p>
+		</div>
+	</div>
+</div>
+<div class="portfolio-modal modal fade" id="teslaModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
+				</div>
 			</div>
 		</div>
-	</section>
-
-	<!-- Developers Section -->
-	<section class="success" id="developers">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h2>Development Team</h2>
-					<hr class="star-light">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body">
+						<h2>Tesla Powerup</h2>
+						<hr class="star-primary">
+						<img src="img/powerups/Tesla.png" class="img-responsive img-centered" alt="">
+						<p>Are you a mad scientist? No? You’ll still love having a Tesla Coil strapped to the ceiling of
+							your car. Once active, the Tesla fires lightning bolts at your opponents, damaging them
+							constantly, and reducing their engine’s performance over time. Two in one!</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+							Close
+						</button>
+					</div>
 				</div>
 			</div>
-			<span></span>
+		</div>
+	</div>
+</div>
+<div class="portfolio-modal modal fade" id="missileModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
+				</div>
+			</div>
+		</div>
+		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 text-center">
-					<figure class="figure">
-						<img src="img/placeholder.png" class="figure-img img-fluid rounded">
-						<figcaption class="figure-caption text-center">Ivan Santos</figcaption>
-						<figcaption class="figure-caption text-center">vanil90@gmail.com</figcaption>
-					</figure>
-				</div>
-				<div class="col-sm-4 text-center">
-					<figure class="figure">
-						<img src="img/placeholder.png" class="figure-img img-fluid rounded">
-						<figcaption class="figure-caption text-center">André Santos</figcaption>
-						<figcaption class="figure-caption text-center">aalmsantos@gmail.com</figcaption>
-					</figure>
-				</div>
-				<div class="col-sm-4 text-center">
-					<figure class="figure">
-						<img src="img/placeholder.png" class="figure-img img-fluid rounded">
-						<figcaption class="figure-caption text-center">Luís Silva</figcaption>
-						<figcaption class="figure-caption text-center">luissilva@gmail.com</figcaption>
-					</figure>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Footer -->
-	<footer class="text-center">
-		<div class="footer-above">
-			<div class="container">
-				<div class="row">
-					<div class="footer-col col-md-4">
-						<h3>Location</h3>
-						<p>3481 Melrose Place
-							<br>Beverly Hills, CA 90210</p>
-					</div>
-					<div class="footer-col col-md-4">
-						<h3>Around the Web</h3>
-						<ul class="list-inline">
-							<li>
-								<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-							</li>
-							<li>
-								<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-							</li>
-							<li>
-								<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-							</li>
-							<li>
-								<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-							</li>
-							<li>
-								<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-							</li>
-						</ul>
-					</div>
-					<div class="footer-col col-md-4">
-						<h3>About Freelancer</h3>
-						<p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footer-below">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						Copyright &copy; Your Website 2016
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-	<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-		<a class="btn btn-primary" href="#page-top">
-			<i class="fa fa-chevron-up"></i>
-		</a>
-	</div>
-
-	<!-- Portfolio Modals -->
-	<div class="portfolio-modal modal fade" id="nitroModal" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="modal-body">
-							<h2>Nitro Powerup</h2>
-							<hr class="star-primary">
-							<img src="img/powerups/Nitrous.png" class="img-responsive img-centered" alt="">
-							<p>Want to go fast? Nitrous Upgrade is your choice. Your car will burn out faster, but if you want to beat your high score, nitrous is the way to go. Once you go over the limit and activate Nitrous, you car will vastly increase its speed, but be careful, as it will also become much harder to control.</p>
-							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-						</div>
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body">
+						<h2>Missile Powerup</h2>
+						<hr class="star-primary">
+						<img src="img/powerups/Missile.png" class="img-responsive img-centered" alt="">
+						<p>Of course there are missiles. Go over 42v and start firing a barrage of homing missiles to
+							your opposition. The missiles take their time but eventually will find their target and
+							unleash chaos upon them. Beware, though, you will lose health faster than with most upgrades
+							while over the limit.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+							Close
+						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="portfolio-modal modal fade" id="sludgeModal" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl">
-					</div>
+</div>
+<div class="portfolio-modal modal fade" id="pushModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
 				</div>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="modal-body">
-							<h2>Sludge Powerup</h2>
-							<hr class="star-primary">
-							<img src="img/powerups/Sludge.png" class="img-responsive img-centered" alt="">
-							<p>A sturdy solution which allows you to stay ahead, if you get ahead! Once you get over 42v with Sludge installed, you will start dropping sludge on the track which will slow down your adversaries. Even better, your car will become sturdier to the pressure of high V, allowing you to use this upgrade for longer, and ride over the limit for longer.</p>
-							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-						</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body">
+						<h2>Force Push Powerup</h2>
+						<hr class="star-primary">
+						<img src="img/powerups/Force.png" class="img-responsive img-centered" alt="">
+						<p>Sometimes you just want to push people around. That’s when you pick Force Push. Activate it
+							and drive other cars over the edge of the road, or make sure they can’t go past you as you
+							emit force waves that hold them back. Bonus points: Missiles can't hit you with push
+							active.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+							Close
+						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="portfolio-modal modal fade" id="teslaModal" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl">
-					</div>
+</div>
+<div class="portfolio-modal modal fade" id="vanillaModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
 				</div>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="modal-body">
-							<h2>Tesla Powerup</h2>
-							<hr class="star-primary">
-							<img src="img/powerups/Tesla.png" class="img-responsive img-centered" alt="">
-							<p>Are you a mad scientist? No? You’ll still love having a Tesla Coil strapped to the ceiling of your car. Once active, the Tesla fires lightning bolts at your opponents, damaging them constantly, and reducing their engine’s performance over time. Two in one!</p>
-							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-						</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body">
+						<h2>No Powerup</h2>
+						<hr class="star-primary">
+						<img src="img/powerups/Vanilla.png" class="img-responsive img-centered" alt="">
+						<p>Don’t have enough recognition and victories to buy you an upgrade? Just ride it vanilla and
+							try to hold your own. The car is pretty sturdy if you don’t use any upgrades, but you miss
+							out on all the action.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+							Close
+						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="portfolio-modal modal fade" id="missileModal" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="modal-body">
-							<h2>Missile Powerup</h2>
-							<hr class="star-primary">
-							<img src="img/powerups/Missile.png" class="img-responsive img-centered" alt="">
-							<p>Of course there are missiles. Go over 42v and start firing a barrage of homing missiles to your opposition. The missiles take their time but eventually will find their target and unleash chaos upon them. Beware, though, you will lose health faster than with most upgrades while over the limit.</p>
-							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade" id="pushModal" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="modal-body">
-							<h2>Force Push Powerup</h2>
-							<hr class="star-primary">
-							<img src="img/powerups/Force.png" class="img-responsive img-centered" alt="">
-							<p>Sometimes you just want to push people around. That’s when you pick Force Push. Activate it and drive other cars over the edge of the road, or make sure they can’t go past you as you emit force waves that hold them back. Bonus points: Missiles can't hit you with push active.</p>
-							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade" id="vanillaModal" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="modal-body">
-							<h2>No Powerup</h2>
-							<hr class="star-primary">
-							<img src="img/powerups/Vanilla.png" class="img-responsive img-centered" alt="">
-							<p>Don’t have enough recognition and victories to buy you an upgrade? Just ride it vanilla and try to hold your own. The car is pretty sturdy if you don’t use any upgrades, but you miss out on all the action.</p>
-							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
 	<!-- jQuery -->
 	<script src="vendor/jquery/jquery.min.js"></script>
